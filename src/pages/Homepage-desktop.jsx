@@ -1,10 +1,11 @@
 import PageNav from "../components/PageNav";
+import Homepagedesktop from "./Homepage-desktop/Homepagedesktop";
 
 function Home() {
     return (
         <div>
             <PageNav />
-            <h1>Home</h1>
+            <Homepagedesktop />
         </div>
     );
 }
