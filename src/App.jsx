@@ -4,13 +4,13 @@ import Pages from "./pages/Pages";
 import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio";
 import Login from "./pages/Login";
-import Homepagedesktop from "./pages/Homepage-desktop";
+import HomepageDesktop from "./pages/Homepage-desktop/Homepagedesktop";
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Homepagedesktop />} />
+                <Route path="/" element={<HomepageDesktop />} />
                 <Route path="pages" element={<Pages />} />
                 <Route path="blog" element={<Blog />} />
                 <Route path="portfolio" element={<Portfolio />} />
